@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sparks Bank </title>
+        <meta name ="viewport"content="width=device-width ,initial-scale=1">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Gabriela&display=swap" rel="stylesheet">
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                font-family: sans-serif;
+                background-color: lightblue;
+            }
+            #header{
+                height: 90vh;
+              
+            }
+            .container{
+                margin-right: 100px;
+                margin-left: 100px;
+            }
+            .logo{
+                margin-top: 30px;
+                width: 100px;
+            }
+            .header-text{
+                max-width: 350px;
+                margin-top: 40px;
+            }
+            .h1{
+                font-size: 34px;
+            }
+            
+            
+            p{
+                font-family: 'Gabriela', serif;
+                font-size: 20px;
+                line-height: 18px;
+                text-align: center;
+                color: rgb(0, 0, 0);
+                margin-top: 10px;
+            }
+            .logoParent{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+            }
+
+
+
+.main-nav
+{
+    float:right;
+    list-style:none;
+    margin-top:10px;
+}
+.main-nav li
+{
+    display:inline-block;
+    margin-left:20px;
+   
+    
+}
+.main-nav li a
+{
+    color:black;
+    text-decoration:none;
+    font-size:150%;
+    font-weight:bold;
+}
+.main-nav li a:hover
+{
+    color:#e67e22;
+    border-bottom:2px solid #e67e22;
+    transition:all 0.3s ease-in;
+    padding:20px;
+}
+
+
+            .titlesss{
+                margin-top:10px;
+                margin-bottom: -5px;
+                margin-left: 20px;
+                font-family: 'Gabriela', serif;
+                color: #6c5613;
+                font-size: 40px;
+                font-weight:bolder;
+            }
+
+            #footer .name{
+                padding-bottom: 50px;
+                margin-bottom: 10px;
+                outline:none;
+            }
+
+            /* FEATURES */
+
+            #features{
+                padding-top: 10px;
+                padding-bottom: 0px;
+                margin-top: 50px;
+            }
+
+            .feature-row{
+                width: 80%;
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-wrap: wrap;
+            }
+            .feature-col{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 10px;
+            }
+            .feature-col img{
+                width: 200px;
+            }
+
+            .feature-col>a{
+                display: inline-block;
+            }
+
+
+            @media(max-width:450px){
+                .container{
+                    margin-right: 20px;
+                    margin-left: 20px;
+                }
+                
+                #header{
+                    min-height: 80vh;
+                    background-image: none;
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                }
+                
+                
+                .header-text{
+                    margin-top: 20px;
+                }
+
+             #features{
+                    margin-top: -20px;
+                }
+
+                
+            }}
+        </style>
+
+    </head>
+
+
+    <body>
+        <section id="header">
+            <div class="container">
+                <div class="logoParent">
+                    <div><img src="images/img10.png" class="logo"></div>
+                    <div class="titlesss">Spark Bank</div>
+                </div>
+
+                <!--Navbar Starts Here -->
+         <div class="row">
+          <ul class="main-nav">
+           <li><a href="index.html">Home</a></li>
+            <li> <a href="user.php">Customers List</a></li>
+            <li><a href="history.php">Transactions</a></li>
+          </ul>
+      </div>
+     <div class="header-text">
+                    <h1>Welcome to <strong style="color : #cc6600">Spark Bank</strong> 
+                    
+                </div>
+            </div>
+<!---FEATURES--->
+<section id="features">
+
+    <div class="feature-row">
+        <div class="feature-col">
+            <img src="images/customer.jpg">
+            <p>Easy to Use</p>
+          </div>
+        <div class="feature-col">
+            <img src="images/transaction.jpg">
+             <p>Online Payment</p>
+           </div>
+        <div class="feature-col">
+            <img src="images/history.jpg">
+             <p>Bank Transfer</p>
+           </div>
+    </div>
+</section>
+</section>
+<!-- FOOTER-->
+<footer align="center">
+    Copyright &copy; 2021 All Rights Reserved. <a href=" https://www.linkedin.com/in/pallabi-chakraborty-7198401b6 "><span style="color: #cc6600;"><strong>PALLABI CHAKRABORTY</strong></span></a>
+</footer>
+<!-- FOOTER-->
+         <!--Pallabi chakraborty-->
+     </body>
+</html>
